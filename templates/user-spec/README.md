@@ -19,7 +19,7 @@
 - 以高层次的预期为主。作者通常关心「要达到什么」，而不关心「具体怎么做」。
 - 可以提及具体做法——有时具体做法确实重要——但提及时**必须附上对应的决策**（写成「……（见 D-0001）」，D-0001 链接到那条决策的文件），表明这是基于决策的方案，**不与作者预期处于同一层次**。
 - 按主题分文件。第一份叫 `overview.md`（总览）；作者的想法多到一份放不下、或者明显是另一个话题时，再新建一份，并在下面的「目录」里加一行。
-- 作者给项目里的东西起的名字（概念）记在 `concepts/`，规则见 [concepts/README.md](concepts/README.md)。
+- 用 `concepts/` 里定下的名字。概念也是 spec 文档，是项目的词典：作者给项目里的东西起的名字记在那里，规则见 [concepts/README.md](concepts/README.md)。
 
 **读法**：spec 文档中未引用决策的叙述 = 作者的预期 = 承重墙。要改动它，等于作者推翻自己，必须先与作者讨论。
 
@@ -127,6 +127,6 @@ agent 发现 spec 与需求或现状冲突时，正确的反应不是覆盖，�
 | [../TODO.md](../TODO.md)（根目录） | 待办索引：以后要做的、定了还没实现的，每条链接到详情；不属于 user spec |
 | [vision.md](vision.md) | 愿景与哲学：离实现还远的宏观想法（不是需求） |
 | `overview.md`（作者说了第一个想法后才有） | 总览 |
-| [concepts/README.md](concepts/README.md) | 概念：给项目里的东西起明确的名字 |
+| [concepts/README.md](concepts/README.md) | 概念：项目的词典，给项目里的东西起明确的名字 |
 | [decisions/README.md](decisions/README.md) | 决策（`D-NNNN`）的约定与索引 |
 | [discussions/README.md](discussions/README.md) | 讨论稿：讨论时写下的讲解、例子、方案比较；是记录，不是预期（见上面「讨论」） |
