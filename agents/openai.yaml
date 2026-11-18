@@ -1,3 +1,3 @@
 interface:
   display_name: "user spec 维护范式"
-  short_description: "建立和维护项目的预期、决策与资料层，忠实整理作者的想法"
+  short_description: "建立长期项目的维护范式：自动维护项目的长期记忆，让 agent 不跑偏"
